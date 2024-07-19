@@ -41,7 +41,7 @@ defmodule ReqTrino.MixProject do
 
   defp deps do
     [
-      {:req, "~> 0.3.5"},
+      {:req, "~> 0.5.4"},
       {:table, "~> 0.1.1", optional: true},
       {:tzdata, "~> 1.1.1", only: :test},
       {:ex_doc, ">= 0.0.0", only: :docs, runtime: false}
